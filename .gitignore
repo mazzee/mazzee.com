@@ -74,3 +74,4 @@ yarn-error.log*
 
 /.awcache
 /.jest-runner.js.cache
+yarn.lock
