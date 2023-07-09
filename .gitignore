@@ -1,0 +1,76 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# TypeScript
+tsconfig.json
+tslint.json
+
+# Storybook
+.storybook
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Next.js
+.next/
+out/
+
+# production
+# build output
+/build
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# IDE - Visual Studio
+*.suo
+*.user
+*.sln.docstates
+
+# IDE - JetBrains
+.idea/
+
+# Dist directory
+/dist
+
+# Log files
+*.log
+
+# Directories used by tools like babel-loader, Babel macros, jest-runtime, and metro-bundler-cache
+**/babel-loader-helper.*
+**/babel.loader.tsbuildinfo
+**/babel.macro.tsbuildinfo
+**/jest-runtime-cache
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/.awcache
+/.jest-runner.js.cache
